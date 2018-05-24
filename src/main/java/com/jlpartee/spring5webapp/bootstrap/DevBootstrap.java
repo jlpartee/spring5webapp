@@ -26,6 +26,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
         initData();
     }
+
     private void initData() {
         // Eric
         Author eric = new Author("Eric", "Evans");
