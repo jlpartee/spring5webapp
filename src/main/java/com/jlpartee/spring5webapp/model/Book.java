@@ -80,6 +80,9 @@ public class Book {
         this.publisher = publisher;
     }
 
+    // default empty constructor
+    public Book() {}
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
