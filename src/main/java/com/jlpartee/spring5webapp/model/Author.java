@@ -62,6 +62,9 @@ public class Author {
         this.lastName = lastName;
     }
 
+    // default constructor for auto-wiring
+    public Author() {}
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
